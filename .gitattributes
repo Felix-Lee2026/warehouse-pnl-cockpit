@@ -1,0 +1,9 @@
+# 统一按 LF 存储，避免 Windows 上改一行却出现整文件 diff
+* text=auto eol=lf
+
+*.html text eol=lf
+*.js   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.png  binary
